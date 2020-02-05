@@ -7,7 +7,7 @@ print_r('|------------------------------------------------|'.PHP_EOL);
 $randNumbers = [];
 
 while (6 != count($randNumbers)) {
-    $number = random_int(1, 6);
+    $number = random_int(1, 60);
 
     if (!in_array($number, $randNumbers)) {
         $randNumbers[] = $number;
